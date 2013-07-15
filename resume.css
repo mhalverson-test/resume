@@ -1,0 +1,109 @@
+
+body {
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    margin-left: 1cm;
+    margin-right: 2cm;
+}
+
+ul {
+    /* get rid of the line break before and after the list*/
+    margin:0;
+}
+
+
+
+.section {
+    position: relative;
+    top: 10px;
+}
+.section-heading {
+    font-size: 12pt;
+    font-weight: bold;
+}
+.section-body {
+    position: relative;
+    top: 5px;
+    left: 30px;
+    font-size: 12pt; 
+}
+
+
+.sub-heading {
+    text-indent: 22px; 
+}
+
+.workplace-heading {
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+
+.job-descriptions {
+    position: relative;
+}
+.job-description {
+    font-size: 12pt;
+}
+
+
+.project-descriptions {
+    position: relative;
+}
+.project-description {
+    font-size: 12pt;
+}
+.project-heading {
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+
+.skill-type {
+    font-weight: bold;
+    display: inline;
+}
+
+
+
+/*** Specific Tags ***/
+
+#Header {
+    text-align: right;
+}
+
+#Name {
+    font-size: 24pt;
+}
+#ContactInfo {
+    position: relative;
+    font-size: 10pt;
+}
+
+#LeftCenterRight {
+    position: relative;
+}
+
+#Left {
+    position:absolute;
+    left:0px;
+    bottom:0px;
+}
+#Center {
+    position:absolute;
+    left:50%;
+    margin-left:-100px;
+    bottom:0px;
+}
+#Right {
+    position:absolute;
+    right:20px;
+    bottom:0px;
+}
+
+#Footnotes {
+    font-size: 9pt; 
+}
+#Footnotes.ol {
+    font-size: 9pt; 
+}
